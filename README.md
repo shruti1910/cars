@@ -7,6 +7,7 @@ The project has been build as a maven project.
 
 ### Answers to assessment questions
 Package: assessment 
+https://github.com/shruti1910/cars/blob/master/src/main/java/assessment/Assessment.java
 
 ##### Question1: Print all the blue Teslas received in the web service response. Also print the notes
 `printAllTeslaWithNotes()`
