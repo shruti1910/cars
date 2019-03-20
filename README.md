@@ -1,3 +1,5 @@
+> Note: In middle of adding more tests including mocks. Would complete remaining tests by EOD
+
 # README (Apple Assessment)
 
 The project has been build as a maven project. 
