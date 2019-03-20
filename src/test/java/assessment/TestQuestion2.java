@@ -41,7 +41,7 @@ public class TestQuestion2 {
     module.addDeserializer(AppleCar.class, new AppleCarDeserializer());
     mapper.registerModule(module);
 
-    File jsonArray = new File("data/cars_1.json");
+    File jsonArray = new File("src/test/data/cars_1.json");
     System.out.println(jsonArray);
     List<AppleCar> cars = mapper.readValue(
         jsonArray, new TypeReference<List<AppleCar>>() {
