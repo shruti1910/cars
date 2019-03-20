@@ -37,16 +37,28 @@ https://github.com/shruti1910/cars/blob/master/src/main/java/assessment/Assessme
  - src
   - java
     - `assessment`: contains methods for implementing Questions 1, 2 and 3
+      - [Assessment.java](https://github.com/shruti1910/cars/blob/master/src/main/java/assessment/Assessment.java)
+      - [AssessmentWithAPICalls.java](https://github.com/shruti1910/cars/blob/master/src/main/java/assessment/AssessmentWithAPICalls.java)
     - `deserializer`: custom package for deserializing response json for `Car`
+      - [AppleCarDeserializer.java](https://github.com/shruti1910/cars/blob/master/src/main/java/deserializer/AppleCarDeserializer.java)
     - `models`: class for modelling `Car` json
+      - [AppleCar.java](https://github.com/shruti1910/cars/blob/master/src/main/java/models/AppleCar.java)
+      - [Metadata.java](https://github.com/shruti1910/cars/blob/master/src/main/java/models/Metadata.java)
+      - [Metrics.java](https://github.com/shruti1910/cars/blob/master/src/main/java/models/Metrics.java)
+      - [PerDayRent.java](https://github.com/shruti1910/cars/blob/master/src/main/java/models/PerDayRent.java)
+      - [RentalCount.java](https://github.com/shruti1910/cars/blob/master/src/main/java/models/RentalCount.java)
     - `service`: REST API handlers for GET / POST calls
+      - [RequestGetHandler.java](https://github.com/shruti1910/cars/blob/master/src/main/java/service/RequestGetHandler.java)
  - test
-  - data
-  - java
-    - `assessment`: test for all 3 assessment questions
-    - `deserializer`: test for custom jackson deserializer
-    - `models`: test for `AppleCar` class
-    - `service`: test for REST API handlers
+    - data
+    - java
+      - `assessment`: test for all 3 assessment questions
+        - [TestQuestion1.java](https://github.com/shruti1910/cars/blob/master/src/test/java/assessment/TestQuestion1.java)
+        - [TestQuestion2.java](https://github.com/shruti1910/cars/blob/master/src/test/java/assessment/TestQuestion2.java)
+        - [TestQuestion3.java](https://github.com/shruti1910/cars/blob/master/src/test/java/assessment/TestQuestion3.java)
+      - `deserializer`: test for custom jackson deserializer
+      - `models`: test for `AppleCar` class
+      - `service`: tesT for REST API handlers
     
     
   
